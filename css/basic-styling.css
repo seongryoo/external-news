@@ -1,0 +1,9 @@
+.ext-news {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ext-news .card {
+  flex-basis: 32%;
+  flex-basis: calc(33% - 0.667rem);
+}
